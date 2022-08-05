@@ -1,0 +1,26 @@
+{
+    "name": "mslapi/mslapi-php-sdk",
+    "description": "MLS API PHP Library",
+    "type": "library",
+    "keywords": [
+        "moatsystems",
+        "api",
+        "mls"
+      ],
+    "homepage": "https://moatsystems.com/mls-api/",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mslapi\\Mslapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "moatsystems and contributors",
+            "homepage": "https://github.com/moatsystems/mslapi-php-sdk/contributors"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": ">=6.0"
+    }
+}
