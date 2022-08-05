@@ -16,7 +16,7 @@ The library require the following extensions in order to work properly:
 
 ## Development
 
-Get [Composer][composer]. For example, on macOS:
+Get [Composer](https://formulae.brew.sh/formula/composer). For example, on macOS:
 
 ```bash
 brew install composer
