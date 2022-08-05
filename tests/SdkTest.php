@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Mslapi\Mslapi\Client;
+use Mlsapi\Mlsapi\Client;
 
 class SdkTest extends TestCase
 {

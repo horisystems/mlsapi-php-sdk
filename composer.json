@@ -1,5 +1,5 @@
 {
-    "name": "mslapi/mslapi-php-sdk",
+    "name": "mlsapi/mlsapi-php-sdk",
     "description": "MLS API PHP Library",
     "type": "library",
     "keywords": [
@@ -11,13 +11,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mslapi\\Mslapi\\": "src/"
+            "Mlsapi\\Mlsapi\\": "src/"
         }
     },
     "authors": [
         {
             "name": "moatsystems and contributors",
-            "homepage": "https://github.com/moatsystems/mslapi-php-sdk/contributors"
+            "homepage": "https://github.com/moatsystems/mlsapi-php-sdk/contributors"
         }
     ],
     "require": {

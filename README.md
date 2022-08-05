@@ -35,7 +35,7 @@ composer install
 You can install the library via [Composer](http://getcomposer.org/). Run the following command:
 
 ```bash
-composer install mslapi/mslapi-php-sdk
+composer install mlsapi/mlsapi-php-sdk
 ```
 
 ### Usage
@@ -43,7 +43,7 @@ composer install mslapi/mslapi-php-sdk
 Simple usage requires you to `init` and `authenticate`.
 
 ```php
-use Mslapi/Mslapi/Client;
+use Mlsapi/Mlsapi/Client;
 
 $sdk = Client::init($config); // guzzle config .
 $sdk->authentication($username, $password); // return auth data.

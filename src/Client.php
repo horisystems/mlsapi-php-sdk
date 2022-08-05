@@ -1,6 +1,6 @@
 <?php
 
-namespace Mslapi\Mslapi;
+namespace Mlsapi\Mlsapi;
 
 class Client
 {

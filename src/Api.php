@@ -1,6 +1,6 @@
 <?php
 
-namespace Mslapi\Mslapi;
+namespace Mlsapi\Mlsapi;
 
 use GuzzleHttp\Client as HttpClient;
 use Psr\Http\Message\ResponseInterface;
