@@ -40,7 +40,7 @@ composer install
 You can install the library via [Composer](http://getcomposer.org/). Run the following command:
 
 ```bash
-composer install mlsapi/mlsapi-php-sdk
+composer require mlsapi/mlsapi-php-sdk
 ```
 
 ### Usage
