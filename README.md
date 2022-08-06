@@ -1,5 +1,13 @@
 # MLS API PHP Library
 
+[![Build Status](https://github.com/moatsystems/mlsapi-php-sdk/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/moatsystems/mlsapi-php-sdk/actions?query=branch%3Amain)
+[![Latest Stable Version](http://poser.pugx.org/mlsapi/mlsapi-php-sdk/v)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk)
+[![Total Downloads](https://poser.pugx.org/mlsapi/mlsapi-php-sdk/downloads.svg)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk)
+[![License](https://poser.pugx.org/mlsapi/mlsapi-php-sdk/license.svg)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk)
+
+
+[![Latest Stable Version](http://poser.pugx.org/mlsapi/mlsapi-php-sdk/v)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk) [![Total Downloads](http://poser.pugx.org/mlsapi/mlsapi-php-sdk/downloads)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk) [![Latest Unstable Version](http://poser.pugx.org/mlsapi/mlsapi-php-sdk/v/unstable)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk) [![License](http://poser.pugx.org/mlsapi/mlsapi-php-sdk/license)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk) [![PHP Version Require](http://poser.pugx.org/mlsapi/mlsapi-php-sdk/require/php)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk)
+
 The library provides convenient access to the MLS API functionality from applications written in the PHP language.
 
 ## Requirements
@@ -43,7 +51,7 @@ composer install mlsapi/mlsapi-php-sdk
 Simple usage requires you to `init` and `authenticate`.
 
 ```php
-use Mlsapi/Mlsapi/Client;
+use Mlsapi\Mlsapi\Client;
 
 $sdk = Client::init($config); // guzzle config .
 $sdk->authentication($username, $password); // return auth data.
