@@ -36,6 +36,3 @@ phpdoc.xml
 
 # Ignore PHPLint.
 .phplint-cache
-
-# Ignore PHPUnit XML configuration file.
-phpunit.xml

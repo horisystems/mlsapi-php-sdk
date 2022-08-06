@@ -9,11 +9,6 @@
       ],
     "homepage": "https://moatsystems.com/mls-api/",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Mlsapi\\Mlsapi\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "moatsystems and contributors",
@@ -22,5 +17,23 @@
     ],
     "require": {
         "guzzlehttp/guzzle": ">=6.0"
-    }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7 || ^9.0",
+        "squizlabs/php_codesniffer": "^3.3",
+        "friendsofphp/php-cs-fixer": "3.5.0",
+        "phpstan/phpstan": "^1.2"
+      },
+      "autoload": {
+        "psr-4": {
+            "Mlsapi\\Mlsapi\\": "src/"
+        }
+      },
+      "autoload-dev": {
+        "psr-4": {
+          "Mlsapi\\Mlsapi\\": [
+            "tests/"
+          ]
+        }
+      }
 }
