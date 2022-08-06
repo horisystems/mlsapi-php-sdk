@@ -33,6 +33,24 @@ Install dependencies:
 composer install
 ```
 
+## Manual Testing
+
+Set environment variables in terminal. For example, on macOS:
+
+```bash
+export username="public_prototype"
+export password="public_prototype"
+
+# The login credentials are for the prototype plan. Rate limiting applies.
+```
+
+Execute test:
+
+```bash
+composer update && composer validate
+./vendor/bin/phpunit tests
+```
+
 ## Getting Started
 
 ### Install
