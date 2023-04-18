@@ -38,8 +38,8 @@ composer install
 Set environment variables in terminal. For example, on macOS:
 
 ```bash
-export username="public_prototype"
-export password="public_prototype"
+export username="your_username"
+export password="your_password"
 
 # The login credentials are for the prototype plan. Rate limiting applies.
 ```
@@ -106,4 +106,4 @@ This project is licensed under the [MIT License](./LICENSE).
   
 ## Copyright
 
-(c) 2022 Moat Systems Limited.
+(c) 2020 - 2023 Moat Systems Limited. All Rights Reserved.

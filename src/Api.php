@@ -42,7 +42,7 @@ class Api
      */
     public function authentication($username, $password)
     {
-        $data = $this->request('POST', '/login', [
+        $data = $this->request('POST', '/v1/login', [
             'username' => $username,
             'password' => $password
         ]);
