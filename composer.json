@@ -3,16 +3,16 @@
     "description": "MLS API PHP Library",
     "type": "library",
     "keywords": [
-        "moatsystems",
+        "horisystems",
         "api",
         "mls"
     ],
-    "homepage": "https:\/\/moatsystems.com\/mls-api\/",
+    "homepage": "https:\/\/horisystems.com\/mls-api\/",
     "license": "MIT",
     "authors": [
         {
-            "name": "moatsystems and contributors",
-            "homepage": "https:\/\/github.com\/moatsystems\/mlsapi-php-sdk\/contributors"
+            "name": "horisystems and contributors",
+            "homepage": "https:\/\/github.com\/horisystems\/mlsapi-php-sdk\/contributors"
         }
     ],
     "require": {

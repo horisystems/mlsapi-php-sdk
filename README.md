@@ -1,6 +1,6 @@
 # MLS API PHP Library
 
-[![Build Status](https://github.com/moatsystems/mlsapi-php-sdk/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/moatsystems/mlsapi-php-sdk/actions?query=branch%3Amain)
+[![Build Status](https://github.com/horisystems/mlsapi-php-sdk/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/horisystems/mlsapi-php-sdk/actions?query=branch%3Amain)
 [![Latest Stable Version](http://poser.pugx.org/mlsapi/mlsapi-php-sdk/v)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk)
 [![Total Downloads](https://poser.pugx.org/mlsapi/mlsapi-php-sdk/downloads.svg)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk)
 [![License](https://poser.pugx.org/mlsapi/mlsapi-php-sdk/license.svg)](https://packagist.org/packages/mlsapi/mlsapi-php-sdk)
@@ -98,7 +98,7 @@ $sdk->teams()->getById($id);
 // news
 ```
 
-The MLS API documentation is available [here](https://moatsystems.com/mls-api/). If you need further assistance, don't hesitate to [contact us](https://moatsystems.com/contact/).
+The MLS API documentation is available [here](https://horisystems.com/mls-api/). If you need further assistance, don't hesitate to [contact us](https://horisystems.com/contact/).
 
 ## License
 
@@ -106,4 +106,4 @@ This project is licensed under the [MIT License](./LICENSE).
   
 ## Copyright
 
-(c) 2020 - 2023 Moat Systems Limited. All Rights Reserved.
+(c) 2020 - 2023 Hori Systems Limited. All Rights Reserved.
