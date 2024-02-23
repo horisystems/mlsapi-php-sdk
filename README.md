@@ -106,4 +106,4 @@ This project is licensed under the [MIT License](./LICENSE).
   
 ## Copyright
 
-(c) 2020 - 2023 Hori Systems Limited. All Rights Reserved.
+(c) 2020 - 2024 Hori Systems Limited. All Rights Reserved.
